@@ -176,7 +176,6 @@ response = athena.get_query_results(QueryExecutionId=query_execution_id)
 # Print the count of rows
 count = response
 print(count)
-
 ```
 
 
