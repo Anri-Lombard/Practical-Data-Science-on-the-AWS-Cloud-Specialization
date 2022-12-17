@@ -178,5 +178,34 @@ count = response
 print(count)
 ```
 
+    Week 2: Data Bias and Feature Importance
+
+__Statistical Bias__
+
+Statistical bias refers to a systematic error or deviation from the true value in a statistical analysis. It can occur in the data collection process, the analysis process, or both, and it can result in incorrect conclusions about the relationships or patterns being studied.
+
+Several types of statistical bias can occur, including sampling bias, measurement bias, and selection bias. Sampling bias occurs when the sample used in the study is not representative of the population being studied, resulting in a distortion of the results. Measurement bias occurs when the measurement instrument or method is flawed, leading to inaccurate or inconsistent results. Selection bias occurs when the sample is selected in a way that is not random, leading to a non-representative sample.
+
+To measure statistical bias, you can use statistical tests or measures such as confidence intervals, p-values, or effect sizes. These can help you determine the level of uncertainty or variability in your results and whether they are statistically significant.
+
+AWS SageMaker is a cloud-based service that provides tools and resources for building, training, and deploying machine learning models. It can help you detect statistical bias in your data by providing algorithms and tools for data preprocessing, feature engineering, and model training and evaluation. For example, SageMaker includes algorithms for sampling, such as stratified sampling, which can help you ensure that your sample is representative of the population. It also includes tools for evaluating the performance of your model, such as confusion matrices and performance metrics, which can help you identify any biases in your model.
+
+__Feature Importance__
+
+Feature importance refers to the relative importance of each feature in predicting the target variable. It is a way to understand which features are most influential in making predictions and can help you identify which features are the most important for your model to consider when making predictions.
+
+There are several ways to measure feature importance, including:
+1. Feature importance scores: Some machine learning algorithms, such as random forests, calculate feature importance scores as part of the model training process. These scores indicate the relative importance of each feature in the model, with higher scores indicating more important features.
+2. Permutation importance: This method involves shuffling the values of a single feature and comparing the model's performance before and after the shuffle. If the model's performance decreases significantly after the shuffle, it suggests that the feature is important to the model.
+3. SHAP (SHapley Additive exPlanations): SHAP is a method for explaining the output of machine learning models by attributing the output to the individual features that contributed to it. It assigns a score to each feature indicating its contribution to the prediction, and it can be used to identify which features are the most important in driving a particular prediction.
+
+Overall, understanding feature importance can be useful for identifying which features are most important for your model to consider when making predictions, and for understanding the relationships between your features and the target variable. It can also help you identify any biases or patterns in your data, and can be a useful tool for feature selection and model optimization.
+
+    Week 3: Use Automated Machine Learning to train a Text Classifier
+
+__AutoML__
+
+AutoML (Automated Machine Learning) is a process in which a machine learning model is automatically trained and optimized using a variety of algorithms and hyperparameter settings, without the need for manual intervention.
+
 
 __In progress...__
