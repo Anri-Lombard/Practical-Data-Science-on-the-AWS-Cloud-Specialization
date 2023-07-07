@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is a collection of long-form notes to deepen understanding of concepts discussed in the [Practical Data Science on AWS Cloud Specialization](https://www.coursera.org/specializations/practical-data-science) on Coursera. The goal is to help bolster your understanding of the material and provide a reference for future use. Incomplete notebooks will also be provided for extra context, although self-completion is encouraged for the best learning experience.
+This repository is a collection of notes documenting the essential teachings in the [Practical Data Science on AWS Cloud Specialization](https://www.coursera.org/specializations/practical-data-science) on Coursera. It is an easy reference to come back to for review and includes experimental notebooks for exploration and better understading of the concepts.
 
 ## Structure of Specialization
 
@@ -13,6 +13,9 @@ This repository is a collection of long-form notes to deepen understanding of co
 ## Notes
 
 ### 1. Analyze Datasets and Train ML Models using AutoML
+
+#### Week 1.1
+
 
 
 __In progress...__
