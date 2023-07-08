@@ -26,6 +26,10 @@ In short: consistently explain the essentials. Anything else, such as applying w
 
 #### Week 1.1
 
+![Practical Data Science](Images/1_PDS.png)
 
+The __cloud__ allows us to not be limited by our local resources and hardware. It allows us to scale up and down as needed.
+
+![Machine Learning Workflow](Images/2_Workflow.png)
 
 __In progress...__
